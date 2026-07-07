@@ -1,0 +1,394 @@
+/*==================================================
+  GOOGLE FONTS
+==================================================*/
+
+
+/*==================================================
+  CSS VARIABLES
+==================================================*/
+
+:root {
+
+    /* Colors */
+
+    /* Typography */
+
+    /* Spacing */
+
+    /* Border Radius */
+
+    /* Shadows */
+
+    /* Transitions */
+
+    /* Max Width */
+
+}
+
+
+/*==================================================
+  RESET
+==================================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+}
+
+body {
+
+}
+
+img {
+
+}
+
+a {
+
+}
+
+ul {
+
+}
+
+button {
+
+}
+
+
+/*==================================================
+  GLOBAL STYLES
+==================================================*/
+
+.container {
+
+}
+
+section {
+
+}
+
+.section-title {
+
+}
+
+.section-title h2 {
+
+}
+
+.section-title p {
+
+}
+
+
+/*==================================================
+  BUTTONS
+==================================================*/
+
+.btn {
+
+}
+
+.primary-btn {
+
+}
+
+.primary-btn:hover {
+
+}
+
+.secondary-btn {
+
+}
+
+.secondary-btn:hover {
+
+}
+
+
+/*==================================================
+  HEADER
+==================================================*/
+
+header {
+
+}
+
+
+/*==================================================
+  NAVBAR
+==================================================*/
+
+.navbar {
+
+}
+
+.logo {
+
+}
+
+.nav-links {
+
+}
+
+.nav-links li {
+
+}
+
+.nav-links a {
+
+}
+
+.nav-links a:hover {
+
+}
+
+.menu-btn {
+
+}
+
+
+/*==================================================
+  HERO SECTION
+==================================================*/
+
+.hero {
+
+}
+
+.hero-content {
+
+}
+
+.hero-text {
+
+}
+
+.subtitle {
+
+}
+
+.hero h1 {
+
+}
+
+.hero h1 span {
+
+}
+
+.description {
+
+}
+
+.hero-buttons {
+
+}
+
+.hero-image {
+
+}
+
+.hero-image img {
+
+}
+
+
+/*==================================================
+  ABOUT SECTION
+==================================================*/
+
+.about {
+
+}
+
+.about-content {
+
+}
+
+.about-content p {
+
+}
+
+
+/*==================================================
+  EXPERIENCE SECTION
+==================================================*/
+
+.experience {
+
+}
+
+.experience-grid {
+
+}
+
+.experience-card {
+
+}
+
+.experience-card:hover {
+
+}
+
+.experience-card h3 {
+
+}
+
+.experience-card h4 {
+
+}
+
+.experience-card span {
+
+}
+
+.experience-card p {
+
+}
+
+
+/*==================================================
+  SKILLS SECTION
+==================================================*/
+
+.skills {
+
+}
+
+.skills-grid {
+
+}
+
+.skill-card {
+
+}
+
+.skill-card:hover {
+
+}
+
+.skill-card i {
+
+}
+
+.skill-card h3 {
+
+}
+
+
+/*==================================================
+  ACHIEVEMENTS SECTION
+==================================================*/
+
+.achievements {
+
+}
+
+.achievement-list {
+
+}
+
+.achievement-card {
+
+}
+
+.achievement-card:hover {
+
+}
+
+.achievement-card i {
+
+}
+
+.achievement-card p {
+
+}
+
+
+/*==================================================
+  CONTACT SECTION
+==================================================*/
+
+.contact {
+
+}
+
+.contact-content {
+
+}
+
+.contact-content p {
+
+}
+
+
+/*==================================================
+  FOOTER
+==================================================*/
+
+footer {
+
+}
+
+footer p {
+
+}
+
+
+/*==================================================
+  ANIMATIONS
+==================================================*/
+
+.fade-up {
+
+}
+
+.fade-in {
+
+}
+
+.scale-up {
+
+}
+
+@keyframes fadeUp {
+
+}
+
+@keyframes fadeIn {
+
+}
+
+@keyframes float {
+
+}
+
+
+/*==================================================
+  RESPONSIVE DESIGN
+==================================================*/
+
+/* Large Tablets */
+
+@media (max-width: 992px) {
+
+}
+
+
+/* Tablets */
+
+@media (max-width: 768px) {
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 576px) {
+
+}
