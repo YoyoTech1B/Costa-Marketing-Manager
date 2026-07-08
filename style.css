@@ -1,135 +1,22 @@
 /*==================================================
-  GOOGLE FONT
+                GOOGLE FONTS
 ==================================================*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 
 /*==================================================
-  CSS VARIABLES
+                CSS VARIABLES
 ==================================================*/
 
 :root{
 
-    --primary:#7B1E3A;
-    --primary-light:#A33A5D;
-    --secondary:#F6F1EC;
-    --dark:#1D1D1D;
-    --gray:#666;
-    --white:#ffffff;
-
-    --shadow:0 10px 30px rgba(0,0,0,.1);
-
-    --radius:15px;
-
-    --transition:.3s ease;
-
-    --max-width:1200px;
-
-}
-
-
-/*==================================================
-  RESET
-==================================================*/
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-html{
-    scroll-behavior:smooth;
-}
-
-body{
-
-    font-family:'Poppins',sans-serif;
-
-    background:var(--secondary);
-
-    color:var(--dark);
-
-    line-height:1.7;
-
-}
-
-img{
-
-    width:100%;
-
-    display:block;
-
-}
-
-a{
-
-    text-decoration:none;
-
-    color:inherit;
-
-}
-
-ul{
-
-    list-style:none;
-
-}
-
-.container{
-
-    width:90%;
-
-    max-width:var(--max-width);
-
-    margin:auto;
-
-}
-
-section{
-
-    padding:100px 0;
-
-}
-
-.section-title{
-
-    text-align:center;
-
-    margin-bottom:60px;
-
-}
-
-.section-title h2{
-
-    font-size:2.5rem;
-
-    color:var(--primary);
-
-}
-
-.section-title p{
-
-    color:var(--gray);
-
-    margin-top:15px;
-
-}
-/*==================================================
-  GOOGLE FONTS
-==================================================*/
-
-
-/*==================================================
-  CSS VARIABLES
-==================================================*/
-
-:root {
-
     /* Colors */
 
     /* Typography */
+
+    /* Font Sizes */
+
+    /* Font Weights */
 
     /* Spacing */
 
@@ -139,566 +26,576 @@ section{
 
     /* Transitions */
 
-    /* Max Width */
+    /* Container Width */
 
 }
+
 
 
 /*==================================================
-  RESET
+                    RESET
 ==================================================*/
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
+*{
 
 }
 
-body {
+*::before,
+*::after{
 
 }
 
-img {
+html{
 
 }
 
-a {
+body{
 
 }
 
-ul {
+img{
 
 }
 
-button {
+a{
 
 }
+
+ul{
+
+}
+
+button{
+
+}
+
 
 
 /*==================================================
-  GLOBAL STYLES
+                GLOBAL CLASSES
 ==================================================*/
 
-.container {
+.container{
 
 }
 
-section {
+section{
 
 }
 
-.section-title {
+.section-title{
 
 }
 
-.section-title h2 {
+.section-title h2{
 
 }
 
-.section-title p {
+.section-title p{
 
 }
+
 
 
 /*==================================================
-  BUTTONS
+                TYPOGRAPHY
 ==================================================*/
 
-.btn {
+h1{
 
 }
 
-.primary-btn {
+h2{
 
 }
 
-.primary-btn:hover {
+h3{
 
 }
 
-.secondary-btn {
+h4{
 
 }
 
-.secondary-btn:hover {
+p{
 
 }
+
 
 
 /*==================================================
-  HEADER
+                BUTTONS
 ==================================================*/
-
-header{
-
-    position:fixed;
-
-    top:0;
-
-    left:0;
-
-    width:100%;
-
-    z-index:1000;
-
-    transition:.35s;
-
-    padding:20px 0;
-
-}
-
-header.scrolled{
-
-    background:rgba(255,255,255,.9);
-
-    backdrop-filter:blur(12px);
-
-    box-shadow:0 8px 25px rgba(0,0,0,.08);
-
-    padding:15px 0;
-
-}
-
-
-/*==================================================
-  NAVBAR
-==================================================*/
-
-.navbar{
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-}
-
-.logo{
-
-    font-size:1.7rem;
-
-    font-weight:700;
-
-    color:var(--primary);
-
-}
-
-.logo span{
-
-    color:var(--dark);
-
-}
-
-.nav-links{
-
-    display:flex;
-
-    gap:35px;
-
-}
-
-.nav-links a{
-
-    font-weight:500;
-
-    position:relative;
-
-    transition:var(--transition);
-
-}
-
-.nav-links a:hover{
-
-    color:var(--primary);
-
-}
-
-.nav-links a::after{
-
-    content:"";
-
-    position:absolute;
-
-    left:0;
-
-    bottom:-6px;
-
-    width:0;
-
-    height:2px;
-
-    background:var(--primary);
-
-    transition:.3s;
-
-}
-
-.nav-links a:hover::after{
-
-    width:100%;
-
-}
-
-.menu-btn{
-
-    display:none;
-
-    font-size:1.5rem;
-
-    cursor:pointer;
-
-    color:var(--primary);
-
-}
-
-/*==================================================
-  HERO SECTION
-==================================================*/
-
-.hero{
-
-    min-height:100vh;
-
-    display:flex;
-
-    align-items:center;
-
-    background:linear-gradient(
-        135deg,
-        #f8f3ef 0%,
-        #efe6de 100%
-    );
-
-}
-
-.hero-content{
-
-    display:grid;
-
-    grid-template-columns:repeat(2,1fr);
-
-    align-items:center;
-
-    gap:60px;
-
-}
-
-.subtitle{
-
-    color:var(--primary);
-
-    font-weight:600;
-
-    margin-bottom:15px;
-
-    letter-spacing:2px;
-
-    text-transform:uppercase;
-
-}
-
-.hero h1{
-
-    font-size:4rem;
-
-    line-height:1.2;
-
-    margin-bottom:20px;
-
-}
-
-.hero h1 span{
-
-    color:var(--primary);
-
-}
-
-.description{
-
-    color:var(--gray);
-
-    margin-bottom:35px;
-
-    font-size:1.1rem;
-
-}
-
-.hero-buttons{
-
-    display:flex;
-
-    gap:20px;
-
-    flex-wrap:wrap;
-
-}
 
 .btn{
-
-    display:inline-block;
-
-    padding:14px 34px;
-
-    border-radius:50px;
-
-    font-weight:600;
-
-    transition:var(--transition);
 
 }
 
 .primary-btn{
 
-    background:var(--primary);
-
-    color:var(--white);
-
 }
 
 .primary-btn:hover{
-
-    transform:translateY(-4px);
-
-    box-shadow:var(--shadow);
 
 }
 
 .secondary-btn{
 
-    border:2px solid var(--primary);
-
-    color:var(--primary);
-
 }
 
 .secondary-btn:hover{
 
-    background:var(--primary);
+}
 
-    color:var(--white);
+
+
+/*==================================================
+                    HEADER
+==================================================*/
+
+header{
+
+}
+
+header.scrolled{
+
+}
+
+
+
+/*==================================================
+                    NAVBAR
+==================================================*/
+
+.navbar{
+
+}
+
+.logo{
+
+}
+
+.logo span{
+
+}
+
+.nav-links{
+
+}
+
+.nav-links li{
+
+}
+
+.nav-links a{
+
+}
+
+.nav-links a:hover{
+
+}
+
+.nav-links a::after{
+
+}
+
+.nav-links a:hover::after{
+
+}
+
+.menu-btn{
+
+}
+
+
+
+/*==================================================
+                HERO SECTION
+==================================================*/
+
+.hero{
+
+}
+
+.hero-content{
+
+}
+
+.hero-text{
+
+}
+
+.subtitle{
+
+}
+
+.hero h1{
+
+}
+
+.hero h1 span{
+
+}
+
+.description{
+
+}
+
+.hero-buttons{
 
 }
 
 .hero-image{
 
-    display:flex;
-
-    justify-content:center;
-
 }
 
 .hero-image img{
 
-    width:380px;
-
-    height:380px;
-
-    object-fit:cover;
-
-    border-radius:50%;
-
-    border:8px solid white;
-
-    box-shadow:0 20px 45px rgba(0,0,0,.15);
-
 }
 
-/*==================================================
-  ABOUT SECTION
-==================================================*/
-
-.about {
-
-}
-
-.about-content {
-
-}
-
-.about-content p {
-
-}
 
 
 /*==================================================
-  EXPERIENCE SECTION
+                ABOUT SECTION
 ==================================================*/
 
-.experience {
+.about{
 
 }
 
-.experience-grid {
+.about-content{
 
 }
 
-.experience-card {
+.about-text{
 
 }
 
-.experience-card:hover {
+.about-text h3{
 
 }
 
-.experience-card h3 {
+.about-text p{
 
 }
 
-.experience-card h4 {
+.about-cards{
 
 }
 
-.experience-card span {
+.about-card{
 
 }
 
-.experience-card p {
+.about-card:hover{
 
 }
+
+.about-card i{
+
+}
+
+.about-card h4{
+
+}
+
+.about-card p{
+
+}
+
 
 
 /*==================================================
-  SKILLS SECTION
+            EXPERIENCE SECTION
 ==================================================*/
 
-.skills {
+.experience{
 
 }
 
-.skills-grid {
+.experience-grid{
 
 }
 
-.skill-card {
+.experience-card{
 
 }
 
-.skill-card:hover {
+.experience-card:hover{
 
 }
 
-.skill-card i {
+.experience-card h3{
 
 }
 
-.skill-card h3 {
+.experience-card h4{
 
 }
+
+.experience-card span{
+
+}
+
+.experience-card p{
+
+}
+
 
 
 /*==================================================
-  ACHIEVEMENTS SECTION
+                SKILLS SECTION
 ==================================================*/
 
-.achievements {
+.skills{
 
 }
 
-.achievement-list {
+.skills-grid{
 
 }
 
-.achievement-card {
+.skill-card{
 
 }
 
-.achievement-card:hover {
+.skill-card:hover{
 
 }
 
-.achievement-card i {
+.skill-card i{
 
 }
 
-.achievement-card p {
+.skill-card h3{
 
 }
+
 
 
 /*==================================================
-  CONTACT SECTION
+            ACHIEVEMENTS SECTION
 ==================================================*/
 
-.contact {
+.achievements{
 
 }
 
-.contact-content {
+.achievement-list{
 
 }
 
-.contact-content p {
+.achievement-card{
 
 }
+
+.achievement-card:hover{
+
+}
+
+.achievement-card i{
+
+}
+
+.achievement-card h3{
+
+}
+
+.achievement-card p{
+
+}
+
 
 
 /*==================================================
-  FOOTER
+                CONTACT SECTION
 ==================================================*/
 
-footer {
+.contact{
 
 }
 
-footer p {
+.contact-content{
 
 }
+
+.contact-content p{
+
+}
+
+.contact-info{
+
+}
+
+.contact-item{
+
+}
+
+.contact-item i{
+
+}
+
+.contact-form{
+
+}
+
+.form-group{
+
+}
+
+.form-group input{
+
+}
+
+.form-group textarea{
+
+}
+
+.form-group input:focus,
+.form-group textarea:focus{
+
+}
+
 
 
 /*==================================================
-  ANIMATIONS
+                    FOOTER
 ==================================================*/
 
-.fade-up {
+footer{
 
 }
 
-.fade-in {
+footer p{
 
 }
 
-.scale-up {
+.social-links{
 
 }
 
-@keyframes fadeUp {
+.social-links a{
 
 }
 
-@keyframes fadeIn {
+.social-links a:hover{
 
 }
 
-@keyframes float {
-
-}
 
 
 /*==================================================
-  RESPONSIVE DESIGN
+                BACK TO TOP
 ==================================================*/
 
-/* Large Tablets */
+.back-to-top{
 
-@media (max-width: 992px) {
+}
+
+.back-to-top:hover{
 
 }
 
 
-/* Tablets */
 
-@media (max-width: 768px) {
+/*==================================================
+                ANIMATIONS
+==================================================*/
+
+.hidden{
+
+}
+
+.show{
+
+}
+
+.fade-up{
+
+}
+
+.fade-left{
+
+}
+
+.fade-right{
+
+}
+
+.zoom-in{
+
+}
+
+.float{
 
 }
 
 
-/* Mobile */
 
-@media (max-width: 576px) {
+/*==================================================
+                KEYFRAMES
+==================================================*/
+
+@keyframes fadeUp{
+
+}
+
+@keyframes fadeLeft{
+
+}
+
+@keyframes fadeRight{
+
+}
+
+@keyframes zoomIn{
+
+}
+
+@keyframes float{
+
+}
+
+@keyframes rotate{
+
+}
+
+
+
+/*==================================================
+            RESPONSIVE - 1200px
+==================================================*/
+
+@media (max-width:1200px){
+
+}
+
+
+
+/*==================================================
+            RESPONSIVE - 992px
+==================================================*/
+
+@media (max-width:992px){
+
+}
+
+
+
+/*==================================================
+            RESPONSIVE - 768px
+==================================================*/
+
+@media (max-width:768px){
+
+}
+
+
+
+/*==================================================
+            RESPONSIVE - 576px
+==================================================*/
+
+@media (max-width:576px){
 
 }
