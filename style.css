@@ -10,26 +10,24 @@
 
 :root{
 
-    /* Colors */
+    --primary:#7A1F2B;
+    --primary-dark:#54131E;
+    --coffee:#4B2E2B;
+    --gold:#C9A66B;
+    --cream:#F8F3EE;
+    --white:#ffffff;
+    --text:#2F2F2F;
+    --gray:#777;
 
-    /* Typography */
+    --shadow:0 15px 35px rgba(0,0,0,.12);
 
-    /* Font Sizes */
+    --radius:18px;
 
-    /* Font Weights */
+    --transition:.35s ease;
 
-    /* Spacing */
-
-    /* Border Radius */
-
-    /* Shadows */
-
-    /* Transitions */
-
-    /* Container Width */
+    --max-width:1200px;
 
 }
-
 
 
 /*==================================================
@@ -50,6 +48,16 @@ html{
 }
 
 body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:var(--cream);
+
+    color:var(--text);
+
+    overflow-x:hidden;
+
+    line-height:1.7;
 
 }
 
@@ -214,6 +222,21 @@ header.scrolled{
 ==================================================*/
 
 .hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    background:linear-gradient(
+        135deg,
+        #5E101D,
+        #7A1F2B,
+        #4B2E2B
+    );
+
+    color:var(--white);
 
 }
 
